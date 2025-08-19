@@ -6,3 +6,9 @@ Order of precedence: **Principles**, **TypeScript**, **Naming & Formatting**, **
 - Rules are **prescriptive** (must/should) and **concise**
 - Wording is **imperative** and consistent: start bullets with **Use/Prefer/Avoid/Ensure/Keep/Provide/Implement**
 - When a rule conflicts with another, follow the order of precedence above
+
+Additional topics:
+
+- **Security & Secrets** (`13-security-and-secrets.md`)
+- **Data Fetching** (`14-data-fetching.md`)
+- **Browsers & Responsiveness** (`15-browsers-and-responsiveness.md`)

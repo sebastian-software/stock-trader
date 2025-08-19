@@ -7,3 +7,4 @@
 - **Co-locate** Storybook stories and Vitest tests with their component
 - Prefer **routing over manual state**; use routes for **tabs** and **dialogs**
 - Implement **error boundaries** on **each route**
+- Rely on **route-level code splitting**: file-based routes are split automatically; avoid importing heavy feature modules at the app root; lazy-load dialogs/tabs via nested routes or dynamic `import()` when opened

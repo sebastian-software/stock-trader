@@ -6,3 +6,4 @@
 - Use **Vitest** for unit tests
 - Integrate **TypeScript path aliases** with Vite (e.g., `vite-tsconfig-paths`)
 - Configure pre-commit hooks with **lint-staged** for formatting/linting
+- Use **pnpm** as the package manager, managed via **Corepack** (`corepack enable`); commit `pnpm-lock.yaml`
