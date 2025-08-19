@@ -5,3 +5,4 @@
 - Avoid `data-testid`; prefer **semantic selectors** and **a11y-first queries**:
   - `getByRole`, `getByLabelText`, `getByText`, etc., mirroring assistive-tech navigation
 - Add E2E tests with **Playwright** for critical flows
+- Use **Faker.js** for test/demo data; persist fixtures where helpful; add as dev dependency

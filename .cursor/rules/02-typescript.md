@@ -9,3 +9,4 @@
 - Avoid non-stripable features (e.g., enums); use `as const` objects instead
 - Use `as const` and `satisfies` to narrow and validate types
 - Use **Zod** for runtime validation; prefer **zod-mini** where possible for improved tree-shaking; export inferred types via `z.infer`
+- Allow **Valibot** as an alternative schema validator when it offers better bundle/runtime trade-offs for the context

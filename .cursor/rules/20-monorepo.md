@@ -1,0 +1,5 @@
+# Monorepo
+
+- Use **pnpm workspaces** with **Turborepo** as the task executor
+- Keep larger shared configurations in **separate packages** (ESLint/Prettier/Vite/tsconfig/storybook) and link them to apps and other projects
+- Prefer **pipeline caching** and task dependency graphs to speed up CI and local builds

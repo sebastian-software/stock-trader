@@ -1,4 +1,4 @@
-# Accessibility & Internationalization
+# Accessibility
 
 - Use **semantic HTML** elements
 - Apply **ARIA roles** correctly
@@ -6,8 +6,5 @@
 - Maintain a correct **heading structure** (e.g., dialog titles are headings)
 - Ensure **full keyboard navigation**: focus order, avoid focus traps, visible focus, ESC/Enter handling for dialogs
 - Announce route changes via **live regions**
-- Use **LinguiJS** for frontend translations
-- Provide **language switching** for German and English by default
-- Keep default messages in **US English**
 - Ensure color contrast meets **WCAG 2.1 AA**; prefer semantic tokens to maintain contrast. Where feasible, add automated checks (e.g., axe) in tests or Storybook
-- Use **wrapped LinguiJS helpers** for i18n formatting where useful; otherwise use native **Intl** for dates/numbers. Avoid large date libraries (e.g., DateJS)
+- Use **APCA** (or comparable) contrast checks aligned with **WCAG 3** guidance for forward-compatible contrast evaluation

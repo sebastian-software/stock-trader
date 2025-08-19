@@ -8,3 +8,4 @@
 - Use **design tokens** with **Vanilla Extract** to keep theme styles out of implementation
 - Use explicit **Save/Cancel** flows for forms; do not implement autosave
 - Confirm closing **dialogs** and **tabs** with unsaved changes before dismissing
+- Avoid adding **margins** to reusable components; prefer container-controlled spacing patterns (e.g., self-controlled gaps [Shadeed](https://ishadeed.com/article/self-gap/) or spacer components [Comeau](https://www.joshwcomeau.com/react/modern-spacer-gif/))

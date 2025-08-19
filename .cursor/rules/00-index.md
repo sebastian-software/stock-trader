@@ -14,7 +14,7 @@ Topics (order of precedence):
 8. **Components & UI** (`07-components-and-ui.md`)
 9. **State Management** (`08-state-management.md`)
 10. **Styling & Theming** (`09-styling-theming.md`)
-11. **Accessibility & i18n** (`10-accessibility-i18n.md`)
+11. **Accessibility** (`10-accessibility-i18n.md`)
 12. **Data Fetching** (`14-data-fetching.md`)
 13. **Errors & Notifications** (`16-errors-and-notifications.md`)
 14. **Media & Icons** (`17-media-and-icons.md`)
@@ -22,7 +22,9 @@ Topics (order of precedence):
 16. **Testing** (`11-testing.md`)
 17. **CI/CD** (`18-ci-cd.md`)
 18. **Unsaved Changes & Data Safety** (`19-unsaved-changes-and-data-safety.md`)
-19. **Docs & Comments** (`12-docs-and-comments.md`)
+19. **Monorepo** (`20-monorepo.md`)
+20. **Docs & Comments** (`12-docs-and-comments.md`)
+21. **Internationalization** (`21-internationalization.md`)
 
 - Rules are **prescriptive** (must/should) and **concise**
 - Wording is **imperative** and consistent: start bullets with **Use/Prefer/Avoid/Ensure/Keep/Provide/Implement**

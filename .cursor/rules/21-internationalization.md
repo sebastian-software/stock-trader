@@ -1,0 +1,6 @@
+# Internationalization
+
+- Use **LinguiJS** for frontend translations; keep default messages in **US English**
+- Provide **language switching** for German and English by default
+- Prefer **wrapped LinguiJS helpers** for formatting (dates/numbers/plurals) where useful; otherwise use native **Intl**
+- Avoid large date libraries (e.g., DateJS); use `Intl` and lightweight utilities

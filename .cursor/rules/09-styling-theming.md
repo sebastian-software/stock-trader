@@ -8,3 +8,6 @@
 - Implement layering rules and tokens (e.g., z-index scale)
 - Use a CSS reset
 - Implement **responsive typography**: scale the root font size between **16px** and **20px** based on viewport width; differentiate mobile (≈320–720px) and desktop (≈960–1680px).
+- Use a **layered CSS approach** starting with a layered CSS reset (see [Mayank](https://mayank.co/blog/css-reset-layer/))
+- Enable **advanced OpenType features** when beneficial (e.g., [TODS](https://github.com/clagnut/TODS))
+- Follow readability guidelines: target line length within recommended ranges and use **unitless line-height** that adapts by context (see [Baymard](https://baymard.com/blog/line-length-readability))

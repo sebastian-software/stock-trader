@@ -7,3 +7,4 @@
 - Centralize fetch utilities (headers, base URL, retries, timeouts); avoid duplicating fetch logic in components
 - Handle errors with boundaries and typed error shapes; prefer retry/backoff where safe
 - Prevent accidental data loss when refetching: do not flush local input state; reconcile server updates without overwriting user edits
+- Use a lightweight fetch wrapper like **ofetch** for parsing, retries, and defaults; avoid raw `fetch` in application code
