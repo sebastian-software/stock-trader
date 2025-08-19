@@ -21,7 +21,8 @@ Topics (order of precedence):
 15. **Browsers & Responsiveness** (`15-browsers-and-responsiveness.md`)
 16. **Testing** (`11-testing.md`)
 17. **CI/CD** (`18-ci-cd.md`)
-18. **Docs & Comments** (`12-docs-and-comments.md`)
+18. **Unsaved Changes & Data Safety** (`19-unsaved-changes-and-data-safety.md`)
+19. **Docs & Comments** (`12-docs-and-comments.md`)
 
 - Rules are **prescriptive** (must/should) and **concise**
 - Wording is **imperative** and consistent: start bullets with **Use/Prefer/Avoid/Ensure/Keep/Provide/Implement**

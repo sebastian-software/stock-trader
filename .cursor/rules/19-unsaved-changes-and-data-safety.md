@@ -1,0 +1,6 @@
+# Unsaved Changes & Data Safety
+
+- Implement **explicit Save/Cancel** flows; do not autosave form edits
+- Show **confirmation prompts** when closing dialogs/tabs or navigating away with unsaved changes
+- Preserve **in-flight user input** across refetches; merge server updates without overwriting local edits
+- Use **controlled form state** modules/utilities to centralize dirty-tracking and navigation guards

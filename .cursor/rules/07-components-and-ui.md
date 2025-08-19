@@ -6,3 +6,5 @@
 - Write **presentational/pure** components: no App Context dependencies; use only app-free hooks (no global state, no app logic/data)
 - Provide **Storybook stories** for all presentational/pure components (each pure component must have a Story)
 - Use **design tokens** with **Vanilla Extract** to keep theme styles out of implementation
+- Use explicit **Save/Cancel** flows for forms; do not implement autosave
+- Confirm closing **dialogs** and **tabs** with unsaved changes before dismissing

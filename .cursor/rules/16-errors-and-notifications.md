@@ -4,3 +4,4 @@
 - Use **dialogs** for failures with **retry** capability and clear remediation actions
 - Implement **consistent UI patterns** for errors: inline field errors for validation, section alerts for recoverable issues, route-level boundaries for fatal errors
 - Prefer **empty-first rendering**; add spinners only when background actions exceed acceptable latency
+- Prompt before **navigating away** when forms have unsaved changes (dialogs, tabs, route transitions)

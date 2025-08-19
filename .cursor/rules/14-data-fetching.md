@@ -6,3 +6,4 @@
 - Render **empty states** rather than skeleton placeholders; show real components with empty data; reserve loading indicators for long-latency or background actions
 - Centralize fetch utilities (headers, base URL, retries, timeouts); avoid duplicating fetch logic in components
 - Handle errors with boundaries and typed error shapes; prefer retry/backoff where safe
+- Prevent accidental data loss when refetching: do not flush local input state; reconcile server updates without overwriting user edits
