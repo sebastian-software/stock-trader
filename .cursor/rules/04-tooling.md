@@ -7,3 +7,4 @@
 - Integrate **TypeScript path aliases** with Vite (e.g., `vite-tsconfig-paths`)
 - Configure pre-commit hooks with **lint-staged** for formatting/linting
 - Use **pnpm** as the package manager, managed via **Corepack** (`corepack enable`); commit `pnpm-lock.yaml`
+- Pin **Node** and **pnpm** versions in `package.json` (use `engines.node` and `packageManager`) and enforce in CI

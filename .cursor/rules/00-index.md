@@ -12,3 +12,6 @@ Additional topics:
 - **Security & Secrets** (`13-security-and-secrets.md`)
 - **Data Fetching** (`14-data-fetching.md`)
 - **Browsers & Responsiveness** (`15-browsers-and-responsiveness.md`)
+- **Errors & Notifications** (`16-errors-and-notifications.md`)
+- **Media & Icons** (`17-media-and-icons.md`)
+- **CI/CD** (`18-ci-cd.md`)

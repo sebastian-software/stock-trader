@@ -10,3 +10,4 @@
 - Provide **language switching** for German and English by default
 - Keep default messages in **US English**
 - Ensure color contrast meets **WCAG 2.1 AA**; prefer semantic tokens to maintain contrast. Where feasible, add automated checks (e.g., axe) in tests or Storybook
+- Use **wrapped LinguiJS helpers** for i18n formatting where useful; otherwise use native **Intl** for dates/numbers. Avoid large date libraries (e.g., DateJS)
