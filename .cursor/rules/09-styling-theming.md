@@ -1,9 +1,9 @@
 # Styling & Theming
 
-- Use **Vanilla Extract** for styling React components.
-- Base the **color scheme** on **`oklch`**.
-- Compute **shades** using **CSS color functions**.
-- Prefer **semantic tokens** (e.g., `--color-bg-primary`) over raw color values.
-- Provide Light/Dark themes and a high-contrast theme.
-- Implement layering rules and tokens (e.g., z-index scale).
+- Use **Vanilla Extract** for styling React components
+- Base the **color scheme** on `oklch`
+- Compute shades using **CSS color functions**
+- Prefer **semantic tokens** (e.g., `--color-bg-primary`) over raw color values
+- Provide light/dark themes and a high-contrast theme
+- Implement layering rules and tokens (e.g., z-index scale)
 - Use a CSS reset

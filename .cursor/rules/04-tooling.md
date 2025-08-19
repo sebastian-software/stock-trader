@@ -1,8 +1,8 @@
 # Tooling & Build
 
-- **Prettier** for formatting.
-- **OXC** (https://github.com/oxc-project/oxc) for linting with **recommended rules** enabled.
-- **Vite** as the bundler; use the **Rolldown** backend for higher performance.
-- **Vitest** for unit tests.
-- **TypeScript path aliases** integrated with Vite (e.g., `vite-tsconfig-paths`).
-- Pre-commit hooks with lint-staged for formatting/lint.
+- Use **Prettier** for formatting
+- Use **OXC** (`https://github.com/oxc-project/oxc`) for linting with recommended rules
+- Use **Vite** as the bundler; prefer the **Rolldown** backend for performance
+- Use **Vitest** for unit tests
+- Integrate **TypeScript path aliases** with Vite (e.g., `vite-tsconfig-paths`)
+- Configure pre-commit hooks with **lint-staged** for formatting/linting

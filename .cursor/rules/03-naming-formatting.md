@@ -1,11 +1,11 @@
 # Naming & Formatting
 
-- **Directories**: `lower-kebab-case/`
-- **Components**: `PascalCase`
-- **Hooks / Utilities / Other modules**: `camelCase` (hooks start with `use...`)
-- **Types & Interfaces**: `PascalCase`
-- Prefer **named exports** to default exports.
-- **US-English** for file names, source code, and default messages.
-- **2 spaces** indentation, **double quotes**, **semicolons** — enforced via **Prettier**.
-- Standardize suffixes: _.test.ts(x), _.stories.tsx, \*.vanilla.css.ts.
-- Use Conventional Commits (feat/fix/chore).
+- Name directories using `lower-kebab-case/`
+- Name components using `PascalCase`
+- Name hooks/utilities/other modules using `camelCase` (hooks start with `use...`)
+- Name types and interfaces using `PascalCase`
+- Prefer **named exports** over default exports
+- Use **US English** for file names, source code, and default messages
+- Enforce **2 spaces** indentation, **double quotes**, **semicolons** via **Prettier**
+- Standardize suffixes: `*.test.ts(x)`, `*.stories.tsx`, `*.vanilla.css.ts`
+- Use **Conventional Commits** (`feat`, `fix`, `chore`)
