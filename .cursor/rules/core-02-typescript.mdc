@@ -12,4 +12,4 @@ alwaysApply: true
 - Avoid non-stripable features (e.g., enums); use `as const` objects instead
 - Use `as const` and `satisfies` to narrow and validate types
 - Use **Valibot** for runtime validation; export inferred types using Valibot's inference helpers
-- Do not use **Zod**
+
