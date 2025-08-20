@@ -8,3 +8,13 @@
 - Keep behavior in headless utilities/hooks; keep markup semantic and accessible; expose `className` for composition.
 - Ensure accessibility coverage: keyboard navigation, focus management, and ARIA roles/labels.
 - Migration: isolate behavior (state/positioning), replace with headless utilities, and rebuild visuals locally.
+# Headless Components Only
+
+- Prefer headless, unstyled primitives; compose visuals locally without third‑party styles.
+- Do not add libraries that ship styling or require importing any `*.css`/`*.scss` from the library.
+- Exceptions: `Web Awesome` and approved web components are allowed as-is.
+- Prefer React Aria + React Stately, Downshift, and Base-UI `https://base-ui.com/` primitives for behavior and ARIA only.
+- Avoid pre-styled component kits and CSS-in-JS engines in app code; if unavoidable, use primitives only and no theme/CSS packages.
+- Keep behavior in headless utilities/hooks; keep markup semantic and accessible; expose `className` for composition.
+- Ensure accessibility coverage: keyboard navigation, focus management, and ARIA roles/labels.
+- Migration: isolate behavior (state/positioning), replace with headless utilities, and rebuild visuals locally.
