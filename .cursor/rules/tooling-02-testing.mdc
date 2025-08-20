@@ -4,9 +4,9 @@ alwaysApply: true
 
 # Testing
 
-- Use **Vitest** for unit tests (hooks, utilities, logic)
-- Use **Storybook `play()`** for interaction tests (e.g., opening a date picker)
-- Avoid `data-testid`; prefer **semantic selectors** and **a11y-first queries**:
-  - Use `getByRole`, `getByLabelText`, `getByText`, etc., mirroring assistive-tech navigation
-- Add E2E tests with **Playwright** for critical flows
-- Use **@faker-js/faker** for test/demo data; persist fixtures where helpful; add as dev dependency
+- Use Vitest for unit tests (hooks, utilities, logic).
+- Use Storybook `play()` for interaction tests (e.g., opening a date picker).
+- Avoid `data-testid`; prefer semantic selectors and a11y-first queries:
+  - Use `getByRole`, `getByLabelText`, `getByText`, etc., mirroring assistive technology navigation.
+- Add E2E tests with Playwright for critical flows.
+- Use `@faker-js/faker` for test and demo data; persist fixtures where helpful; add as a dev dependency.

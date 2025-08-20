@@ -4,8 +4,8 @@ alwaysApply: true
 
 # React
 
-- Use **React 19+** and **React Router**
-- Use the **React Compiler** and configure Vite to run the compiler Babel plugin as documented in the official guide for Vite ([React Compiler — Vite setup](https://react.dev/learn/react-compiler/installation#vite))
-- Avoid manual memoization where the compiler optimizes; use `useMemo`/`useCallback` only for measured wins (expensive calculations, stable refs)
-- Prefer **presentational/pure** components; move app-specific logic into dedicated hooks or higher-level containers
-- Keep a **consistent Suspense-based data fetching** pattern
+- Use React 19+ and React Router.
+- Configure Vite for the React Compiler per the official guide ([React Compiler — Vite setup](https://react.dev/learn/react-compiler/installation#vite)).
+- Avoid manual memoization where the compiler optimizes; use `useMemo`/`useCallback` only for measured wins (expensive calculations, stable refs).
+- Prefer presentational/pure components; move app-specific logic into dedicated hooks or higher-level containers.
+- Keep a consistent Suspense-based data fetching pattern.

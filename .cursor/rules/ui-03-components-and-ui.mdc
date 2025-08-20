@@ -4,14 +4,14 @@ alwaysApply: true
 
 # Components & UI
 
-- Use **Web Components** from `https://webawesome.com/` for core components
-- Prefer these over plain native elements when they provide better styling or integration
-- Wrap customized Web Components (and any other headless components) in **React wrappers** (typed props, event mapping, controlled/uncontrolled behavior)
-- Prefer writing (a lot of) **presentational/pure** components: no App Context dependencies; use only app-free hooks (no global state, no app logic/data)
-- Follow the single responsible pattern... a component either deals with Markup and Styles or with connecting data (container).
-- Provide **Storybook stories** for all presentational/pure components (each pure component must have a story)
-- Use **design tokens** with **Vanilla Extract** to keep theme styles out of implementation
-- Avoid adding **margins** to reusable components; prefer container-controlled spacing patterns (e.g., self-controlled gaps [Shadeed](https://ishadeed.com/article/self-gap/) or spacer components [Comeau](https://www.joshwcomeau.com/react/modern-spacer-gif/))
-- Omit usage of magic numbers in both TypeScript code and styles.
-- Avoid **inline render helpers**; extract into components; keep render closures lean
-- Avoid **hidden I/O** or side effects
+- Use **Web Components** from [Web Awesome](https://webawesome.com/) for core components.
+- Prefer these over plain native elements when they provide better styling or integration.
+- Wrap customized Web Components (and any other headless components) in **React wrappers** (typed props, event mapping, controlled/uncontrolled behavior).
+- Prefer presentational/pure components; avoid App Context dependencies; use only app-agnostic hooks (no global state, no app logic/data).
+- Follow the single-responsibility pattern: a component either handles markup and styles or connects data (container).
+- Provide **Storybook** stories for all presentational/pure components (each pure component must have a story).
+- Use design tokens with **Vanilla Extract** to keep theme styles out of implementation.
+- Avoid adding margins to reusable components; prefer container-controlled spacing patterns (e.g., self-controlled gaps [Shadeed](https://ishadeed.com/article/self-gap/) or spacer components [Comeau](https://www.joshwcomeau.com/react/modern-spacer-gif/)).
+- Avoid magic numbers in both TypeScript code and styles.
+- Avoid inline render helpers; extract into components; keep render closures lean.
+- Avoid hidden I/O or side effects.

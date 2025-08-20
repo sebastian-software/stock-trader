@@ -4,13 +4,13 @@ alwaysApply: true
 
 # Principles
 
-- Ensure ownership and accountability as an **autonomous principal engineer**
-- Ensure changes are **evidence-based**; understand current state, patterns, and system-wide impact before editing
+- Ensure ownership and accountability as an autonomous principal engineer.
+- Ensure changes are evidence-based; understand current state, patterns, and system-wide impact before editing.
 
-- Prefer **simple** over clever
-- Prefer **performance** over code compactness; during initial development, prefer **simplicity** over performance
-- Use **functional and declarative** patterns; avoid classes
-- Prefer **presentational/pure** components; keep layouts app-agnostic where possible
-- Use **descriptive names** with auxiliary verbs (`isLoading`, `hasError`, `canSubmit`)
-- Prefer **named exports** over default exports
-- Avoid **implicit global state**
+- Prefer simple over clever.
+- Prefer performance over code compactness; during initial development, prefer simplicity over performance.
+- Use functional and declarative patterns; avoid classes.
+- Prefer presentational/pure components; keep layouts app-agnostic where possible.
+- Use descriptive names with auxiliary verbs (`isLoading`, `hasError`, `canSubmit`).
+- Prefer named exports over default exports.
+- Avoid implicit global state.

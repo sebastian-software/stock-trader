@@ -4,11 +4,11 @@ alwaysApply: true
 
 # TypeScript
 
-- Ensure `"strict": true` is enabled in `tsconfig.json`
-- Ensure `"noImplicitAny": true`, `"strictNullChecks": true`, `"strictFunctionTypes": true`
-- Provide **explicit return types** for functions (not required for React components)
-- Provide **explicit types** for object literals or use `satisfies`
-- Prefer **interfaces** over `type`
-- Avoid non-stripable features (e.g., enums); use `as const` objects instead
-- Use `as const` and `satisfies` to narrow and validate types
-- Use **Valibot** for runtime validation; export inferred types using Valibot's inference helpers
+- Ensure `"strict": true` is enabled in `tsconfig.json`.
+- Enable `"noImplicitAny": true`, `"strictNullChecks": true`, and `"strictFunctionTypes": true`.
+- Provide explicit return types for functions (not required for React components).
+- Provide explicit types for object literals or use `satisfies`.
+- Prefer interfaces over `type`.
+- Avoid non-stripable features (e.g., enums); use `as const` objects instead.
+- Use `as const` and `satisfies` to narrow and validate types.
+- Use Valibot for runtime validation; export inferred types using Valibot's inference helpers.

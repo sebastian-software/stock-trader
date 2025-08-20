@@ -4,20 +4,20 @@ alwaysApply: true
 
 # Tooling & Build
 
-- Use **Prettier** for formatting
-- Use **OXC** (`https://github.com/oxc-project/oxc`) for linting with recommended rules
-- Do not install or configure **ESLint**; use **OXC/oxlint** exclusively for linting
-- Use **Vite** as the bundler; integrate the **Rolldown** backend; do not use the **esbuild** build backend
+- Use **Prettier** for formatting.
+- Use **OXC** (`https://github.com/oxc-project/oxc`) for linting with recommended rules.
+- Do not install or configure **ESLint**; use **OXC/oxlint** exclusively for linting.
+- Use **Vite** as the bundler; integrate the **Rolldown** backend; do not use the **esbuild** build backend.
   - Enable Oxlint plugins: **oxc**, **typescript**, **vitest**.
   - Additionally enable Oxlint plugins in frontend projects: **react**, **jsx-a11y**, **react-perf**
   - Configure via `.oxlintrc.json` (setting `plugins` overwrites defaults; include the full desired set)
 - Configure Vite for **React Compiler** per official guidance. Example:
   - `@vitejs/plugin-react` with `babel.plugins: ["babel-plugin-react-compiler"]`, or
   - `vite-plugin-babel` injecting `babel-plugin-react-compiler`
-- Integrate **TypeScript path aliases** with Vite (e.g., `vite-tsconfig-paths`)
-- Configure pre-commit hooks with **lint-staged** for formatting/linting
-- Use **pnpm** as the package manager, managed via **Corepack** (`corepack enable`); commit `pnpm-lock.yaml`
-- Ensure **Node** and **pnpm** versions are pinned in `package.json` (use `engines.node` and `packageManager`) and enforced in CI
-- Avoid **TailwindCSS**, **UnoCSS**, **Windi CSS**, **Sass/SCSS**, and **PostCSS** in the toolchain
-- Avoid **factory/scaffolding starters** for initial setup (e.g., `create-vite`, Storybook generators, boilerplate templates); prefer **lean, hand-written configs**
-- Create **minimal, explicit configurations** for Vite, Vitest, Storybook, and Prettier; add only required plugins/integrations
+- Integrate **TypeScript path aliases** with Vite (e.g., `vite-tsconfig-paths`).
+- Configure pre-commit hooks with **lint-staged** for formatting/linting.
+- Use **pnpm** as the package manager, managed via **Corepack** (`corepack enable`); commit `pnpm-lock.yaml`.
+- Ensure **Node** and **pnpm** versions are pinned in `package.json` (use `engines.node` and `packageManager`) and enforced in CI.
+- Avoid **TailwindCSS**, **UnoCSS**, **Windi CSS**, **Sass/SCSS**, and **PostCSS** in the toolchain.
+- Avoid factory/scaffolding starters for initial setup (e.g., `create-vite`, Storybook generators, boilerplate templates); prefer lean, hand-written configs.
+- Create minimal, explicit configurations for Vite, Vitest, Storybook, and Prettier; add only required plugins/integrations.

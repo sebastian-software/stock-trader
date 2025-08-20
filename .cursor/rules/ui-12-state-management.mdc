@@ -4,6 +4,5 @@ alwaysApply: true
 
 # State Management
 
-- Use **React Context** for component-level state shared across deeper trees (dialogs, comboboxes, date pickers, tab views)
-- Avoid using Context for application state
-- Use **Jotai** for application state instead.
+- Use **React Context** for component-level state shared across deep component trees (dialogs, comboboxes, date pickers, tab views).
+- Avoid using Context for application state; use **Jotai** for application state instead.

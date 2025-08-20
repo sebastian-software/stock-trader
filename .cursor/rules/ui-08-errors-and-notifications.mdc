@@ -4,9 +4,9 @@ alwaysApply: true
 
 # Errors & Notifications
 
-- Use **toasts** for successful transactions and ephemeral confirmations
-- Use **dialogs** or inline messages for failures with **retry** capability and clear remediation actions
-- Implement **consistent UI patterns** for errors: inline field errors for validation, section alerts for recoverable issues, route-level boundaries for fatal errors
-- Prefer **empty-first rendering**; add spinners only when background actions exceed acceptable latency
-- Prompt before **navigating away** when forms have unsaved changes (dialogs, tabs, route transitions)
-- Make sure to disable forms on submission and indicate activity on the user triggered submit button.
+- Use toasts for successful transactions and ephemeral confirmations.
+- Use dialogs or inline messages for failures with retry capability and clear remediation actions.
+- Implement consistent UI patterns for errors: inline field errors for validation, section alerts for recoverable issues, route-level boundaries for fatal errors.
+- Prefer empty-first rendering; add spinners only when background actions exceed acceptable latency.
+- Prompt before navigating away when forms have unsaved changes (dialogs, tabs, route transitions).
+- Ensure forms are disabled on submission and indicate activity on the user-triggered submit button.

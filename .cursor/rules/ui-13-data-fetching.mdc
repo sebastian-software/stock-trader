@@ -4,14 +4,14 @@ alwaysApply: true
 
 # Data Fetching
 
-- Prefer **React-native mechanisms**: **Suspense**, route loaders/actions, and router-driven fetching where possible
-- Do not add client data libraries (e.g., SWR, TanStack Query). Prefer **React Router Framework Mode** loaders/actions and **React Suspense**
-- Ensure **type safety** for fetched data: use **TypeScript generics**, **schema validation (Valibot)**, or `satisfies` to assert shapes
-- Render **empty states** rather than skeleton placeholders; show real components with empty data; reserve loading indicators for long-latency or background actions
-- Centralize fetch utilities (headers, base URL, retries, timeouts); avoid duplicating fetch logic in components
-- Handle errors with boundaries and typed error shapes; prefer retry/backoff where safe
-- Prevent accidental data loss when refetching: do not flush local input state; reconcile server updates without overwriting user edits
-- Use **ofetch** for all HTTP requests in the browser and on the server; do not use native `fetch` directly
-- Implement **client loaders** using `ofetch` in **React Router Framework Mode** ([Client Data Loading](https://reactrouter.com/start/framework/data-loading#client-data-loading))
-- Prefer server-side loaders that query data sources directly; when calling upstream HTTP services, also use `ofetch`
-- Implement mutations via **React Router Actions** rather than ad-hoc `fetch` calls ([Actions](https://reactrouter.com/start/framework/actions))
+- Use native **React** mechanisms: **Suspense**, route loaders/actions, and router-driven data fetching.
+- Avoid adding client data libraries (e.g., SWR, TanStack Query); prefer **React Router Framework Mode** loaders/actions and **React Suspense**.
+- Use **ofetch** for all HTTP requests in the browser and on the server; do not use the native `fetch` directly.
+- Implement client loaders using `ofetch` in **React Router Framework Mode** ([Client Data Loading](https://reactrouter.com/start/framework/data-loading#client-data-loading)).
+- Prefer server-side loaders that query data sources directly; when calling upstream HTTP services, also use `ofetch`.
+- Implement mutations via **React Router Actions** rather than ad-hoc `fetch` calls ([Actions](https://reactrouter.com/start/framework/actions)).
+- Ensure type safety for fetched data: use **TypeScript generics**, runtime schema validation with **Valibot**, or `satisfies` to assert shapes.
+- Centralize fetch utilities (headers, base URL, retries, timeouts); avoid duplicating fetch logic in components.
+- Handle errors with boundaries and typed error shapes; prefer retry/backoff where safe.
+- Prevent data loss when refetching: do not flush in-flight user input; reconcile server updates without overwriting local edits.
+- Render empty states rather than skeleton placeholders; show real components with empty data; reserve loading indicators for long-latency or background actions.

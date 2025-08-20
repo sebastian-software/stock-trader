@@ -4,16 +4,15 @@ alwaysApply: true
 
 # Styling & Theming
 
-- Use **Vanilla Extract** https://vanilla-extract.style for styling React components
-- Avoid **utility-first CSS frameworks** (e.g., TailwindCSS, UnoCSS, Windi CSS)
-- Avoid **CSS preprocessors** (e.g., Sass/SCSS) and **PostCSS** pipelines. Allow lightning CSS for static CSS processing https://lightningcss.dev.
-- Base the **color scheme** on `oklch`
-- Compute shades using **CSS color functions**
-- Prefer **semantic tokens** (e.g., `--color-bg-primary`) over raw color values
-- Provide light/dark themes
-- Implement layering rules and tokens (e.g., z-index scale)
-- Use a **layered CSS reset** from the start; do not use legacy `normalize.css`/`reset.css`
-- Use a **layered CSS approach** starting with a layered CSS reset (see [Mayank](https://mayank.co/blog/css-reset-layer/))
-- Implement **responsive typography**: scale the root font size between e.g. **16px** and **20px** based on viewport width; differentiate mobile (≈320–720px) and desktop (≈960–1680px). Make sure that this is mathematically well defined and that common resolution leads to stable sizing.
-- Enable **advanced OpenType features** when beneficial (e.g., [TODS](https://github.com/clagnut/TODS))
-- Follow readability guidelines: target line length within recommended ranges and use **unitless line-height** that adapts by context (see [Baymard](https://baymard.com/blog/line-length-readability))
+- Use [Vanilla Extract](https://vanilla-extract.style) for styling React components.
+- Avoid utility-first CSS frameworks (e.g., TailwindCSS, UnoCSS, Windi CSS).
+- Avoid CSS preprocessors (e.g., Sass/SCSS) and PostCSS pipelines. Allow [Lightning CSS](https://lightningcss.dev) for static CSS processing.
+- Base the color scheme on `oklch`.
+- Compute shades using CSS color functions.
+- Prefer semantic tokens (e.g., `--color-bg-primary`) over raw color values.
+- Provide light/dark themes.
+- Implement layering rules and tokens (e.g., z-index scale).
+- Use a layered CSS approach starting with a layered CSS reset; do not use legacy `normalize.css`/`reset.css` (see [Mayank](https://mayank.co/blog/css-reset-layer/)).
+- Implement responsive typography: scale the root font size between approximately 16px and 20px based on viewport width; differentiate mobile (≈320–720px) and desktop (≈960–1680px). Ensure the scaling is mathematically well defined and common resolutions produce stable sizing.
+- Enable advanced OpenType features when beneficial (e.g., [TODS](https://github.com/clagnut/TODS)).
+- Follow readability guidelines: target line length within recommended ranges and use unitless line-height that adapts by context (see [Baymard](https://baymard.com/blog/line-length-readability)).

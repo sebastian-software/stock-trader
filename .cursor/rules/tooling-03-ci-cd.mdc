@@ -4,9 +4,9 @@ alwaysApply: true
 
 # CI/CD
 
-- Keep workflows minimal; prefer invoking **npm scripts** (pnpm run ...) for typecheck, lint, test, build, storybook
-- Cache pnpm store; pin Node and pnpm via `package.json` and enforce with setup steps
-- Include basic jobs: typecheck, lint, unit tests, Storybook build
-- Lint with **oxlint** using the configured plugins; annotate PRs with findings
-- Run E2E tests with **Playwright** on merges to `main` and for PRs labeled `e2e`
-- Integrate **CSpell** for spell checks in Markdown and docs
+- Keep workflows minimal; prefer invoking npm scripts (`pnpm run ...`) for typecheck, lint, test, build, and Storybook.
+- Cache the pnpm store; pin Node and pnpm via `package.json` and enforce with setup steps.
+- Include basic jobs: typecheck, lint, unit tests, and Storybook build.
+- Lint with oxlint using the configured plugins; annotate PRs with findings.
+- Run E2E tests with Playwright on merges to `main` and for PRs labeled `e2e`.
+- Integrate CSpell for spell checks in Markdown and docs.

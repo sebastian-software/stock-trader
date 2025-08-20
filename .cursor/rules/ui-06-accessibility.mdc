@@ -4,10 +4,10 @@ alwaysApply: true
 
 # Accessibility
 
-- Use **semantic HTML** elements
-- Apply **ARIA roles** correctly
-- Use `aria-label` and `aria-labelledby` for textless elements
-- Maintain a correct **heading structure** (e.g., dialog titles are headings)
-- Ensure **full keyboard navigation**: focus order, avoid focus traps, visible focus, ESC/Enter handling for dialogs
-- Announce route changes via **live regions**
-- Use **APCA** for contrast evaluation (WCAG 3–aligned). Enforce contrast via semantic tokens and add automated checks (e.g., axe in tests/Storybook) where feasible
+- Use semantic HTML elements.
+- Apply ARIA roles correctly.
+- Use `aria-label` and `aria-labelledby` for textless elements.
+- Maintain a correct heading structure (e.g., dialog titles are headings).
+- Ensure full keyboard navigation: focus order, avoid focus traps, visible focus, and ESC/Enter handling for dialogs.
+- Announce route changes via live regions.
+- Use APCA for contrast evaluation (WCAG 3–aligned). Enforce contrast via semantic tokens and add automated checks (e.g., axe in tests/Storybook) where feasible.

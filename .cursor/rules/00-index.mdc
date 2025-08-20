@@ -30,6 +30,6 @@ alwaysApply: true
   - **Docs & Comments** (`core-04-docs-and-comments.mdc`)
   - **Internationalization** (`ui-11-internationalization.mdc`)
 
-- Use **prescriptive** and **concise** rules
-- Use **imperative** wording: start bullets with **Use/Prefer/Avoid/Ensure/Keep/Provide/Implement**
-- Resolve conflicts by following the order of precedence above
+- Use prescriptive and concise rules.
+- Use imperative wording: start bullets with Use/Prefer/Avoid/Ensure/Keep/Provide/Implement.
+- Resolve conflicts by following the order of precedence above.
