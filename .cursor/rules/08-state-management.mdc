@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # State Management
 
 - Use **React Context** for component-level state shared across deeper trees (dialogs, comboboxes, date pickers, tab views)

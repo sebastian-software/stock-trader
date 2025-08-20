@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # CI/CD
 
 - Keep workflows minimal; prefer invoking **npm scripts** (pnpm run ...) for typecheck, lint, test, build, storybook

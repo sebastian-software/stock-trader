@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Naming & Formatting
 
 - Use `lower-kebab-case/` for directory names

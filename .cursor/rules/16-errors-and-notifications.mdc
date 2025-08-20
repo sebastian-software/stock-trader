@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Errors & Notifications
 
 - Use **toasts** for successful transactions and ephemeral confirmations

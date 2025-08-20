@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Monorepo
 
 - Use **pnpm workspaces** with **Turborepo** as the task executor

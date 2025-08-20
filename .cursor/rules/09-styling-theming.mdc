@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Styling & Theming
 
 - Use **Vanilla Extract** for styling React components

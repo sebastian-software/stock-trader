@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Browsers & Responsiveness
 
 - Support latest stable versions of **Chrome**, **Edge**, and **Safari** (desktop and mobile)

@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Media & Icons
 
 - Prefer modern image formats (**AVIF**, **WebP**) over legacy formats where supported

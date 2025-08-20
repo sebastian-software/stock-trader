@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Testing
 
 - Use **Vitest** for unit tests (hooks, utilities, logic)

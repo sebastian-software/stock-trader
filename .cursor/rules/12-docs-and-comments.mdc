@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Docs & Comments
 
 - Use **JSDoc** (focused) for all exported methods, interfaces, hooks, and utilities

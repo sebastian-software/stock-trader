@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # TypeScript
 
 - Ensure `"strict": true` is enabled in `tsconfig.json`

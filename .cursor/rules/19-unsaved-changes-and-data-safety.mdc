@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Unsaved Changes & Data Safety
 
 - Implement **explicit Save/Cancel** flows; do not autosave form edits

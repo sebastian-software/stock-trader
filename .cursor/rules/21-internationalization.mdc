@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Internationalization
 
 - Use **LinguiJS** for frontend translations; keep default messages in **US English**

@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Headless Components Only
 
 - Prefer headless, unstyled primitives; compose visuals locally without third‑party styles.
@@ -8,6 +12,7 @@
 - Keep behavior in headless utilities/hooks; keep markup semantic and accessible; expose `className` for composition.
 - Ensure accessibility coverage: keyboard navigation, focus management, and ARIA roles/labels.
 - Migration: isolate behavior (state/positioning), replace with headless utilities, and rebuild visuals locally.
+
 # Headless Components Only
 
 - Prefer headless, unstyled primitives; compose visuals locally without third‑party styles.

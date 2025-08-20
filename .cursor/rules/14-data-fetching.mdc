@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Data Fetching
 
 - Prefer **React-native mechanisms**: **Suspense**, route loaders/actions, and router-driven fetching where possible

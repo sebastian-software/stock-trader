@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Components & UI
 
 - Use **Web Components** from `https://webawesome.com/` for core components

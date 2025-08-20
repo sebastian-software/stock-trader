@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Dependency Management
 
 - Prefer ESM packages that are tree-shakeable: require `"sideEffects": false` (or equivalent) and per-feature entrypoints (e.g., `pkg/feature`).

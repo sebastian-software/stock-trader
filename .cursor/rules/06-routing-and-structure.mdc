@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Routing & Project Structure
 
 - Use **React Router Framework Mode** with **file-based routes**; do not declare routes manually. Follow file route conventions from the official docs ([Framework Mode](https://reactrouter.com/start/modes#framework), [File Route Conventions](https://reactrouter.com/how-to/file-route-conventions))
