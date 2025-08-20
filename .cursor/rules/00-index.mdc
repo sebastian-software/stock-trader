@@ -19,7 +19,7 @@ alwaysApply: true
   - **State Management** (`ui-12-state-management.mdc`)
   - **Styling & Theming** (`ui-05-styling-theming.mdc`)
   - **Accessibility** (`ui-06-accessibility.mdc`)
-  - **Data Fetching** (`data-01-data-fetching.mdc`)
+  - **Data Fetching** (`ui-13-data-fetching.mdc`)
   - **Errors & Notifications** (`ui-08-errors-and-notifications.mdc`)
   - **Media & Icons** (`ui-09-media-and-icons.mdc`)
   - **Browsers & Responsiveness** (`ui-07-browsers-and-responsiveness.mdc`)

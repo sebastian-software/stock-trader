@@ -14,5 +14,3 @@ alwaysApply: true
 - Use **descriptive names** with auxiliary verbs (`isLoading`, `hasError`, `canSubmit`)
 - Prefer **named exports** over default exports
 - Avoid **implicit global state**
-
- 
