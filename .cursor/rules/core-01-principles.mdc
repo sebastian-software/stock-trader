@@ -12,7 +12,7 @@ alwaysApply: true
 - Use **functional and declarative** patterns; avoid classes
 - Prefer **presentational/pure** components; keep layouts app-agnostic where possible
 - Use **descriptive names** with auxiliary verbs (`isLoading`, `hasError`, `canSubmit`)
-- Avoid **inline render helpers**; extract into components; keep render closures lean
 - Prefer **named exports** over default exports
 - Avoid **implicit global state**
-- Avoid **hidden I/O** or side effects
+
+ 
