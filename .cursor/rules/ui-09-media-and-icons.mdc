@@ -4,7 +4,7 @@ alwaysApply: true
 
 # Media & Icons
 
+- Prefer **SVG** for icons and scalable graphics; avoid raster icons where possible
 - Prefer modern image formats (**AVIF**, **WebP**) over legacy formats where supported
 - Implement **responsive images** using `srcset`/`sizes` and leverage image CDNs with URL parameters for transforms (resize, quality, format)
-- Prefer **SVG** for icons and scalable graphics; avoid raster icons where possible
-- Use **Streamline** icons across applications; pick a single initial style and remain consistent; do not substitute icons bundled with component libraries
+- Icons must come from **Streamline** https://home.streamlinehq.com. Assume that we have a full access plan.

@@ -6,4 +6,4 @@ alwaysApply: true
 
 - Use **React Context** for component-level state shared across deeper trees (dialogs, comboboxes, date pickers, tab views)
 - Avoid using Context for application state
-- Use **Jotai** for application state
+- Use **Jotai** for application state instead.

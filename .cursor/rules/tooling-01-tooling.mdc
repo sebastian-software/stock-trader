@@ -8,12 +8,12 @@ alwaysApply: true
 - Use **OXC** (`https://github.com/oxc-project/oxc`) for linting with recommended rules
 - Do not install or configure **ESLint**; use **OXC/oxlint** exclusively for linting
 - Use **Vite** as the bundler; integrate the **Rolldown** backend; do not use the **esbuild** build backend
-  - Enable Oxlint plugins: **oxc**, **typescript**, **react**, **jsx-a11y**, **react-perf**, **vitest**. Adjust as needed per project scope
+  - Enable Oxlint plugins: **oxc**, **typescript**, **vitest**.
+  - Additionally enable Oxlint plugins in frontend projects: **react**, **jsx-a11y**, **react-perf**
   - Configure via `.oxlintrc.json` (setting `plugins` overwrites defaults; include the full desired set)
 - Configure Vite for **React Compiler** per official guidance. Example:
   - `@vitejs/plugin-react` with `babel.plugins: ["babel-plugin-react-compiler"]`, or
   - `vite-plugin-babel` injecting `babel-plugin-react-compiler`
-- Use **Vitest** for unit tests
 - Integrate **TypeScript path aliases** with Vite (e.g., `vite-tsconfig-paths`)
 - Configure pre-commit hooks with **lint-staged** for formatting/linting
 - Use **pnpm** as the package manager, managed via **Corepack** (`corepack enable`); commit `pnpm-lock.yaml`
