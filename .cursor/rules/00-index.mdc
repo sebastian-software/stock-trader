@@ -1,0 +1,28 @@
+# Project Rules — Index
+
+- Topics (order of precedence):
+  - **Principles** (`01-principles.mdc`)
+  - **Security & Secrets** (`13-security-and-secrets.mdc`)
+  - **TypeScript** (`02-typescript.mdc`)
+  - **Naming & Formatting** (`03-naming-formatting.mdc`)
+  - **Tooling & Build** (`04-tooling.mdc`)
+  - **React** (`05-react.mdc`)
+  - **Routing & Project Structure** (`06-routing-and-structure.mdc`)
+  - **Components & UI** (`07-components-and-ui.mdc`)
+  - **State Management** (`08-state-management.mdc`)
+  - **Styling & Theming** (`09-styling-theming.mdc`)
+  - **Accessibility** (`10-accessibility-i18n.mdc`)
+  - **Data Fetching** (`14-data-fetching.mdc`)
+  - **Errors & Notifications** (`16-errors-and-notifications.mdc`)
+  - **Media & Icons** (`17-media-and-icons.mdc`)
+  - **Browsers & Responsiveness** (`15-browsers-and-responsiveness.mdc`)
+  - **Testing** (`11-testing.mdc`)
+  - **CI/CD** (`18-ci-cd.mdc`)
+  - **Unsaved Changes & Data Safety** (`19-unsaved-changes-and-data-safety.mdc`)
+  - **Monorepo** (`20-monorepo.mdc`)
+  - **Docs & Comments** (`12-docs-and-comments.mdc`)
+  - **Internationalization** (`21-internationalization.mdc`)
+
+- Use **prescriptive** and **concise** rules
+- Use **imperative** wording: start bullets with **Use/Prefer/Avoid/Ensure/Keep/Provide/Implement**
+- Resolve conflicts by following the order of precedence above

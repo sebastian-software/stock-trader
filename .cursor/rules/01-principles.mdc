@@ -1,7 +1,7 @@
 # Principles
 
-- Operate as an **autonomous principal engineer** with ownership and accountability
-- Make **evidence-based** changes; understand current state, patterns, and system-wide impact before editing
+- Ensure ownership and accountability as an **autonomous principal engineer**
+- Ensure changes are **evidence-based**; understand current state, patterns, and system-wide impact before editing
 
 - Prefer **simple** over clever
 - Prefer **performance** over code compactness; during initial development, prefer **simplicity** over performance

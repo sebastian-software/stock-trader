@@ -1,0 +1,11 @@
+# Naming & Formatting
+
+- Use `lower-kebab-case/` for directory names
+- Use `PascalCase` for component names
+- Use `camelCase` for hooks, utilities, and other modules (hooks start with `use...`)
+- Use `PascalCase` for types and interfaces
+- Prefer **named exports** over default exports
+- Use **US English** for file names, source code, and default messages
+- Ensure **2 spaces** indentation, **double quotes**, **semicolons** via **Prettier**
+- Use standardized suffixes: `*.test.ts(x)`, `*.stories.tsx`, `*.vanilla.css.ts`
+- Use **Conventional Commits** (`feat`, `fix`, `chore`)
