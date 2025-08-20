@@ -1,0 +1,13 @@
+# Dependency Management
+
+- Prefer ESM packages that are tree-shakeable: require `"sideEffects": false` (or equivalent) and per-feature entrypoints (e.g., `pkg/feature`).
+- Ban global side effects: no global CSS, no implicit polyfills, no DOM or global mutations at module top level. Prefer ponyfills and explicit initializers.
+- Enforce small imports: a single feature import should generally be < 5 kB gzip. Anything > ~10–15 kB needs a clear justification and lazy loading.
+- Ensure first-class TypeScript: published types included; avoid community `@types` when possible. No `any`-heavy APIs.
+- Require SSR/browser safety: packages must not assume `window`/`document` at import time and must work in NodeJS/SSR targets.
+- Import only what you use: prefer named, per-module imports; avoid star imports and barrels that pull entire packages.
+- No CSS from `node_modules`: do not import third-party `*.css`/`*.scss` directly. Style locally.
+- Compatibility: target our supported browsers and Node version; prefer dual ESM/CJS builds or ESM-first with clear guidance. Avoid CJS-only packages.
+- Governance & security: check license, maintenance cadence, issue velocity; pin versions, enable automated updates, and avoid packages with postinstall scripts.
+- Deduplicate: avoid multiple versions of the same dependency; use overrides/resolutions to keep one copy.
+- Measure and verify: run bundle analyzer regularly; reject or reconfigure dependencies that regress size or prevent tree-shaking.
