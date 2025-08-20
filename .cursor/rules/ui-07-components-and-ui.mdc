@@ -10,6 +10,6 @@ alwaysApply: true
 - Write **presentational/pure** components: no App Context dependencies; use only app-free hooks (no global state, no app logic/data)
 - Provide **Storybook stories** for all presentational/pure components (each pure component must have a story)
 - Use **design tokens** with **Vanilla Extract** to keep theme styles out of implementation
-- Adhere to the **Unsaved Changes & Data Safety** policy (`19-unsaved-changes-and-data-safety.mdc`)
+- Adhere to the **Unsaved Changes & Data Safety** policy (`ui-19-unsaved-changes-and-data-safety.mdc`)
 - Avoid adding **margins** to reusable components; prefer container-controlled spacing patterns (e.g., self-controlled gaps [Shadeed](https://ishadeed.com/article/self-gap/) or spacer components [Comeau](https://www.joshwcomeau.com/react/modern-spacer-gif/))
 - Do not use icon sets bundled with Web Components; icons must come from **Streamline**
