@@ -6,5 +6,4 @@
 - Maintain a correct **heading structure** (e.g., dialog titles are headings)
 - Ensure **full keyboard navigation**: focus order, avoid focus traps, visible focus, ESC/Enter handling for dialogs
 - Announce route changes via **live regions**
-- Ensure color contrast meets **WCAG 2.1 AA**; prefer semantic tokens to maintain contrast. Where feasible, add automated checks (e.g., axe) in tests or Storybook
-- Use **APCA** (or comparable) contrast checks aligned with **WCAG 3** guidance for forward-compatible contrast evaluation
+- Use **APCA** for contrast evaluation (WCAG 3–aligned). Enforce contrast via semantic tokens and add automated checks (e.g., axe in tests/Storybook) where feasible

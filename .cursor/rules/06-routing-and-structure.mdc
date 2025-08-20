@@ -1,6 +1,6 @@
 # Routing & Project Structure
 
-- Use the **Vite-enabled React Router** with **file-based routes**
+- Use **React Router Framework Mode** with **file-based routes**; do not declare routes manually. Follow file route conventions from the official docs ([Framework Mode](https://reactrouter.com/start/modes#framework), [File Route Conventions](https://reactrouter.com/how-to/file-route-conventions))
 - Keep routes as **glue code**; delegate to **features** which implement functionality
 - Keep **feature folders** self-contained; avoid deep nesting; prefer a **flat** structure when fewer than 10 files
 - Keep **one item per file**; do not mix components and hooks/utilities in the same file

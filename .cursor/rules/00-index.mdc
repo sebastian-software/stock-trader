@@ -1,6 +1,7 @@
 # Project Rules — Index
 
 - Topics (order of precedence):
+
   - **Principles** (`01-principles.mdc`)
   - **Security & Secrets** (`13-security-and-secrets.mdc`)
   - **TypeScript** (`02-typescript.mdc`)
@@ -11,7 +12,7 @@
   - **Components & UI** (`07-components-and-ui.mdc`)
   - **State Management** (`08-state-management.mdc`)
   - **Styling & Theming** (`09-styling-theming.mdc`)
-  - **Accessibility** (`10-accessibility-i18n.mdc`)
+  - **Accessibility** (`10-accessibility.mdc`)
   - **Data Fetching** (`14-data-fetching.mdc`)
   - **Errors & Notifications** (`16-errors-and-notifications.mdc`)
   - **Media & Icons** (`17-media-and-icons.mdc`)

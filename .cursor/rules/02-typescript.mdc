@@ -4,9 +4,8 @@
 - Ensure `"noImplicitAny": true`, `"strictNullChecks": true`, `"strictFunctionTypes": true`
 - Provide **explicit return types** for functions (not required for React components)
 - Provide **explicit types** for object literals or use `satisfies`
-- Use **PascalCase** for types and interfaces
 - Prefer **interfaces** over `type`
 - Avoid non-stripable features (e.g., enums); use `as const` objects instead
 - Use `as const` and `satisfies` to narrow and validate types
-- Use **Zod** for runtime validation; prefer **zod-mini** where possible for improved tree-shaking; export inferred types via `z.infer`
-- Use **Valibot** as an alternative schema validator when it offers better bundle/runtime trade-offs for the context
+- Use **Valibot** for runtime validation; export inferred types using Valibot's inference helpers
+- Do not use **Zod**

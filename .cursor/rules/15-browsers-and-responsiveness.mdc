@@ -1,6 +1,7 @@
 # Browsers & Responsiveness
 
 - Support latest stable versions of **Chrome**, **Edge**, and **Safari** (desktop and mobile)
+- Define `browserslist`: `>1% in GB, >1% in DE, >1% in FR, >1% in US, >1% in CA, not dead`
 - Build **mobile and desktop friendly** layouts; verify core flows on touch and pointer devices
 - Use **responsive typography** and layout grids; prefer CSS container queries where appropriate
 - Avoid polyfills unless essential for the supported matrix; measure impact before adding
