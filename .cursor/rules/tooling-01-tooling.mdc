@@ -19,6 +19,5 @@ alwaysApply: true
 - Use **pnpm** as the package manager, managed via **Corepack** (`corepack enable`); commit `pnpm-lock.yaml`.
 - Ensure **Node** and **pnpm** versions are pinned in `package.json` (use `engines.node` and `packageManager`) and enforced in CI.
 - Avoid **TailwindCSS**, **UnoCSS**, **Windi CSS**, **Sass/SCSS**, and **PostCSS** in the toolchain.
-- Avoid factory/scaffolding starters for initial setup (e.g., `create-vite`, Storybook generators, boilerplate templates); prefer lean, hand-written configs.
 - Create minimal, explicit configurations for Vite, Vitest, Storybook, and Prettier; add only required plugins/integrations.
 - Use shared configuration packages for Storybook; extend base configurations in apps with app-specific settings (stories paths, styles imports).
