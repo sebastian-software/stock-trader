@@ -13,3 +13,4 @@ alwaysApply: true
 - Enforce 2-space indentation, double quotes, and semicolons via Prettier.
 - Use standardized suffixes: `*.test.ts(x)`, `*.stories.tsx`, `*.css.ts`.
 - Use Conventional Commits (`feat`, `fix`, `chore`).
+- Structure `.gitignore` with logical groupings: use section headers with clear categories (Dependencies, Frontend Build & Generated Files, Environment & Configuration, Development Tools, OS Files); include descriptive comments for each entry; organize entries from most common to least common within each section.

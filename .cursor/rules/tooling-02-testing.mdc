@@ -7,6 +7,8 @@ alwaysApply: true
 - Use Vitest in browser mode with Playwright for unit tests (hooks, utilities, logic, components).
 - Configure Vitest with `@vitest/browser` using Playwright provider for real browser testing environment.
 - Avoid jsdom/happydom environment; use browser mode to test in actual browser context.
+- Use V8 coverage provider with `@vitest/coverage-v8`; configure multiple report formats (text, html, lcov) in `vitest.config.ts`.
+- Avoid NYC/Istanbul coverage providers; use V8 for faster and more accurate coverage reporting.
 - Use Storybook `play()` for interaction tests (e.g., opening a date picker).
 - Avoid `data-testid`; prefer semantic selectors and a11y-first queries:
   - Use `getByRole`, `getByLabelText`, `getByText`, etc., mirroring assistive technology navigation.
