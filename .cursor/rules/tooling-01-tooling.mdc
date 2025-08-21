@@ -21,3 +21,4 @@ alwaysApply: true
 - Avoid **TailwindCSS**, **UnoCSS**, **Windi CSS**, **Sass/SCSS**, and **PostCSS** in the toolchain.
 - Avoid factory/scaffolding starters for initial setup (e.g., `create-vite`, Storybook generators, boilerplate templates); prefer lean, hand-written configs.
 - Create minimal, explicit configurations for Vite, Vitest, Storybook, and Prettier; add only required plugins/integrations.
+- Use shared configuration packages for Storybook; extend base configurations in apps with app-specific settings (stories paths, styles imports).
