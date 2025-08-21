@@ -4,7 +4,9 @@ alwaysApply: true
 
 # Testing
 
-- Use Vitest for unit tests (hooks, utilities, logic).
+- Use Vitest in browser mode with Playwright for unit tests (hooks, utilities, logic, components).
+- Configure Vitest with `@vitest/browser` using Playwright provider for real browser testing environment.
+- Avoid jsdom/happydom environment; use browser mode to test in actual browser context.
 - Use Storybook `play()` for interaction tests (e.g., opening a date picker).
 - Avoid `data-testid`; prefer semantic selectors and a11y-first queries:
   - Use `getByRole`, `getByLabelText`, `getByText`, etc., mirroring assistive technology navigation.

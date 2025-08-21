@@ -4,8 +4,9 @@ alwaysApply: true
 
 # React
 
-- Use React 19+ and React Router.
+- Use React 19+ and React Router 7+ exclusively.
 - Configure Vite for the React Compiler per the official guide ([React Compiler — Vite setup](https://react.dev/learn/react-compiler/installation#vite)).
 - Avoid manual memoization where the compiler optimizes; use `useMemo`/`useCallback` only for measured wins (expensive calculations, stable refs).
 - Prefer presentational/pure components; move app-specific logic into dedicated hooks or higher-level containers.
 - Keep a consistent Suspense-based data fetching pattern.
+- Use strict type checking with React 19 types for all props and components.
